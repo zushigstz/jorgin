@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="relogio">
+        <span id="horas">00</span>
+        <span class="tempo">horas</span>
+    </div>
+
+    <div class="relogio">
+        <span id="minutos">00</span>
+        <span class="tempo">minutos</span>
+    </div>
+
+    <div class="relogio">
+        <span id="segundos">00</span>
+        <span class="tempo">segundos</span>
+    </div>
     <script>
         const horas=document.getElementById('horas');
         const minutos=document.getElementById('minutos');
@@ -30,21 +44,6 @@
             minutos.textContent=min;
             segundos.textContent=seg;
         }
-    </script>
-    <div class="relogio">
-        <span id="horas">00</span>
-        <span class="tempo">horas</span>
-    </div>
-
-    <div class="relogio">
-        <span id="minutos">00</span>
-        <span class="tempo">minutos</span>
-    </div>
-
-    <div class="relogio">
-        <span id="segundos">00</span>
-        <span class="tempo">segundos</span>
-    </div>
-
+        </script>
 </body>
 </html>
